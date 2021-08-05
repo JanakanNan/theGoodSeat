@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@nestjs/mongoose": "^8.0.0",
+    "@nestjs/passport": "^8.0.1",
+    "mongoose": "^5.13.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/passport-local": "^1.0.34"
+  }
+}
