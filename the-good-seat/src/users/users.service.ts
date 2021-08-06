@@ -16,4 +16,8 @@ export class UsersService {
     async findAll(): Promise<User[]> {
         return this.useModel.find().exec();
     }
+
+    async findOne(query, projection = {}) {
+        return this.useModel.find(query, projection);
+    }
 }
